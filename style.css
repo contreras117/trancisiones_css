@@ -1,0 +1,56 @@
+body{
+  background: skyblue;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.caja{
+  height: 200px;
+  width: 200px;
+  background: lightgoldenrodyellow;
+}
+
+.transicion{
+  transition: 0.3s all linear;
+  /* transition-duration: 0.3s;
+  transition-property: all;
+  transition-timing-function: linear; */
+}
+
+.opacidad:hover{
+  opacity:0;
+}
+
+.fuente:hover{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.colores:hover{
+  background: red;
+  color: yellow;
+}
+
+.rotacion:hover{
+  transform: rotate(45deg);
+  margin:40px;
+}
+
+.escala:hover{
+  transform: scale(2);
+  margin:40px;
+}
+
+.sesgado:hover{
+  transform: skew(45deg);
+}
+
+.traslacion:hover{
+  transform: translate(-10px, 30px);
+}
+
+.mixtas:hover{
+  transform: rotate(45deg) scale(1.5) skew(30deg) translateX(100px);
+}
